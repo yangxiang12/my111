@@ -72,3 +72,4 @@ class ChouTiSpider(scrapy.Spider):
 
     def parse4(self, response):
         print(response.text)
+        print(response)
