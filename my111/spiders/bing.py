@@ -8,4 +8,4 @@ class BingSpider(scrapy.Spider):
     start_urls = ['http://bing.com/']
 
     def parse(self, response):
-        pass
+        print(response.text)
